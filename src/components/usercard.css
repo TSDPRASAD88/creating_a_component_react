@@ -1,0 +1,63 @@
+
+.user-card {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .profile-section {
+    margin-bottom: 16px;
+  }
+  
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #00aaff;
+    margin-bottom: 8px;
+  }
+  
+  .user-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .details-section {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .details-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .contact-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0077cc;
+  }
